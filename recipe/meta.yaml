@@ -1,5 +1,5 @@
 {% set name = "rpscore" %}
-{% set version = "6.8.1" %}
+{% set version = "6.8.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brsynth/rpscore/archive/refs/tags/{{ version }}.tar.gz
-  sha256: a590dba589fa1bf7d9b701caf8c1c4807ee7d7162fab6854de98d296f5e9cf8f
+  sha256: d82bc965b4732c343d564f64fd1a46d9c568fbad4254ad44866c3fec7007d880
 
 build:
   number: 0
